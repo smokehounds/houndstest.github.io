@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-Regular.woff);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+}
+
+.cool {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2rem 0;
+  color: #ffffff;
+  font-family: Inter;
+  text-decoration: none;
+}
+
+.cool2 {
+  position: relative;
+  float: right;
+  padding: 2rem 0.5rem;
+  margin-right: 0rem;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: Inter;
+  text-align: left;
+  width: auto;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  grid-template-rows: repeat(2, 0px);
+  text-decoration: none;
+}
+
+.gucci {
+  color: #ffffff;
+  margin: 5rem 0;
+  font-family: Inter;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 50em;
+}
+
+head {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  grid-template-rows: repeat(2, 0.1rem);
+}
+
+@media (max-width: 800px) {
+  .cool2 {
+    position: relative;
+    float: right;
+    padding: 2rem 0.5rem;
+    margin-right: 0rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Inter;
+    text-align: left;
+    width: auto;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    grid-template-rows: repeat(2, 0px);
+    text-decoration: none;
+  }
+
+  .gucci {
+    color: #ffffff;
+    margin: 5rem 0;
+    font-family: Inter;
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 3000px) and (min-width: 801px) {
+  .cool2 {
+    position: relative;
+    float: right;
+    padding: 2rem 1.5rem;
+    margin-right: 0rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Inter;
+    text-align: left;
+    width: auto;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    grid-template-rows: repeat(2, 0px);
+    text-decoration: none;
+  }
+  .gucci {
+    color: #ffffff;
+    margin: 5rem 0;
+    margin-right: 4rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+  }
+}
