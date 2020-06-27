@@ -90,6 +90,13 @@ head {
     margin-right: 0.8rem;
     width: auto;
   }
+
+  .viewgucci {
+    color: #ffffff;
+    margin: 5rem 0;
+    font-family: Inter;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 3000px) and (min-width: 801px) {
@@ -115,5 +122,12 @@ head {
     margin-right: 4rem;
     font-family: Inter;
     font-size: 1.5rem;
+  }
+
+  .viewgucci {
+    color: #ffffff;
+    margin: 5rem 0;
+    font-family: Inter;
+    font-size: 0.9rem;
   }
 }
