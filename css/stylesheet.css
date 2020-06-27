@@ -46,14 +46,20 @@ body {
 
 .viewgucci {
   color: #ffffff;
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
+  display: grid;
   font-family: Inter;
   font-size: 1rem;
 }
 
+.viewgucci:hover {
+  color: #c0c0c0;
+  transition: 0.35s;
+}
+
 body {
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
   max-width: 50em;
 }
 
@@ -93,7 +99,8 @@ head {
 
   .viewgucci {
     color: #ffffff;
-    margin: -2rem 0;
+    margin: 2rem 0;
+    display: grid;
     font-family: Inter;
     font-size: 1rem;
     text-decoration: underline;
@@ -119,7 +126,7 @@ head {
   }
   .gucci {
     color: #ffffff;
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
     margin-right: 4rem;
     font-family: Inter;
     font-size: 1.5rem;
@@ -128,7 +135,8 @@ head {
 
   .viewgucci {
     color: #ffffff;
-    margin: -2rem 0;
+    margin: 2rem 0 0 0;
+    display: grid;
     font-family: Inter;
     font-size: 1rem;
     text-decoration: underline;
