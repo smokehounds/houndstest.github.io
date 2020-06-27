@@ -39,14 +39,15 @@ body {
 
 .gucci {
   color: #ffffff;
-  margin: 5rem 0;
+  margin: 5rem 0 0 0;
   font-family: Inter;
   font-size: 1.5rem;
 }
 
 .viewgucci {
   color: #ffffff;
-  margin: -2rem 0;
+  margin: 2rem 0;
+  display: grid;
   font-family: Inter;
   font-size: 1rem;
 }
@@ -84,7 +85,7 @@ head {
 
   .gucci {
     color: #ffffff;
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
     font-family: Inter;
     font-size: 1.5rem;
     width: auto;
@@ -93,7 +94,8 @@ head {
 
   .viewgucci {
     color: #ffffff;
-    margin: -2rem 0;
+    margin: 3rem 0;
+    display: grid;
     font-family: Inter;
     font-size: 1rem;
     text-decoration: underline;
@@ -117,9 +119,10 @@ head {
     grid-template-rows: repeat(2, 0px);
     text-decoration: none;
   }
+
   .gucci {
     color: #ffffff;
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
     margin-right: 4rem;
     font-family: Inter;
     font-size: 1.5rem;
@@ -128,7 +131,8 @@ head {
 
   .viewgucci {
     color: #ffffff;
-    margin: -3rem 0;
+    margin: 3rem 0;
+    display: grid;
     font-family: Inter;
     font-size: 1rem;
     text-decoration: underline;
