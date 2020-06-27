@@ -93,9 +93,9 @@ head {
 
   .viewgucci {
     color: #ffffff;
-    margin: 5rem 0;
+    margin: 1.4rem 0;
     font-family: Inter;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-decoration: underline;
   }
 }
@@ -129,7 +129,7 @@ head {
     color: #ffffff;
     margin: 1.4rem 0;
     font-family: Inter;
-    font-size: 0.4rem;
+    font-size: 1rem;
     text-decoration: underline;
   }
 }
