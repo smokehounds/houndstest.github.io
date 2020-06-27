@@ -96,6 +96,7 @@ head {
     margin: 5rem 0;
     font-family: Inter;
     font-size: 0.9rem;
+    text-decoration: underline;
   }
 }
 
