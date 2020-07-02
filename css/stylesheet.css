@@ -5,6 +5,7 @@
 
 html {
   box-sizing: border-box;
+  margin: 0 2rem 0 2rem;
 }
 
 body {
@@ -51,10 +52,6 @@ body {
   font-family: Inter;
   font-size: 1rem;
 }
-.viewgucci:hover {
-  color: #c0c0c0;
-  font-weight: 400;
-}
 
 .viewgucci:hover {
   color: #c0c0c0;
@@ -75,6 +72,10 @@ head {
 }
 
 @media (max-width: 800px) {
+  .html {
+    margin: 0 2rem 0 2rem;
+  }
+
   .cool2 {
     position: relative;
     float: right;
@@ -112,6 +113,10 @@ head {
 }
 
 @media (max-width: 3000px) and (min-width: 801px) {
+  .html {
+    margin: 0 2rem 0 2rem;
+  }
+
   .cool2 {
     position: relative;
     float: right;
